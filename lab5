@@ -1,0 +1,3 @@
+number= input("введите семизначное целое положительное число:")
+digits = [int(digit) for digit in str (number)]
+print("".join(map(str, digits)))
